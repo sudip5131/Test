@@ -10,8 +10,8 @@ header {
 /* line 12, ../sass/_header.scss */
 header button {
   background-color: #d13535;
-  padding: 5px;
-  margin: 5px;
+  padding: 25px;
+  margin: 25px;
 }
 /* line 16, ../sass/_header.scss */
 header button:hover {
