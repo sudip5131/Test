@@ -1,0 +1,45 @@
+/* line 9, ../sass/_header.scss */
+header {
+  background-color: #7c7ccf;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* line 12, ../sass/_header.scss */
+header button {
+  background-color: #d13535;
+  padding: 5px;
+  margin: 5px;
+}
+/* line 16, ../sass/_header.scss */
+header button:hover {
+  background-color: #da5f5f;
+  color: white;
+}
+/* line 20, ../sass/_header.scss */
+header button::after {
+  content: "button";
+}
+
+/* line 4, ../sass/style.scss */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* line 8, ../sass/style.scss */
+.contact {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* line 11, ../sass/style.scss */
+.contact button {
+  background-color: white;
+  color: gray;
+}
